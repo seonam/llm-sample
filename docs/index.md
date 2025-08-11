@@ -144,9 +144,13 @@ sLLM 만들기 과정의 개강일은 언제입니까?
 ## LLM 어플리케이션 개발
 
 ### openai sdk
-#### Tool calling
+- openai-toolcalling
 ### Langchain
+- langchain
+- langchain-toolcalling
+- langchain-rag
 ### Langgraph
+- langgraph
 ### Langsmith
 
 - llm 어플리케이션 모니터링, 테스트 지원, 배포 지원 도구
