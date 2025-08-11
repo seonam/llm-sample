@@ -10,6 +10,7 @@ LLM 파인튜닝 및 sLLM
 ## LLM 최신 동향
 ### 추론(Reasoning)모델
 
+![img.png](images/reasoning.png)
 - 최근 LLM은 **충분한 생각할 시간과 큰 텍스트 공간(Context Window)을 제공**하면 복잡하고 어려운 문제도 높은 정확도로 해결 가능
 - openai 에서 시작한 이 트렌드는 DeepSeek 로 인해 확산 
 - "Long Thinking Makes Perfect" 라는 방식 아래 First Chunk Median(초기 응답까지 걸리는 시간. 모델이 얼마나 신중하게 대답하는지), Thinking 토큰(<think.></think.>)의 on/off 등 더욱 정교한 조정 기능이 개발되고 있음.
@@ -22,7 +23,8 @@ LLM 파인튜닝 및 sLLM
 ### Tool Calling & Agent
 
 - LLM 은 **외부 함수나 API를 직접 호출**할 수 있도록 Tool Calling 기능 추가
-- Model Context Protocol의 등장으로 Tool Calling 방식이 표준화되고, Claude·Cursor 등 주요 앱과 연계된 다양한 어플리케이션이 2025년 3월부터 본격적으로 확산
+  ![img_1.png](images/toolcalling.png)
+- MCP, A2A 등 LLM 어플리케이션을 위한 표준 등장
 
 ### sLLM & 도메인 특화 모델
 - 가지치기(Pruning) 및 증류(Distillation) 기술을 적용해 작은 사이즈의 LLM(Gemma 31B, Llama3 21B/3B, Qwen 30.6B/1.5B 등)도 추론 및 실효 성능이 빠르게 향상되고 있음
